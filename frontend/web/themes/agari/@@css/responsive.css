@@ -1,0 +1,943 @@
+@media screen and (max-width:1200px) {
+
+
+.bannertext h1  { font-size:45px; padding-bottom:20px; line-height:normal;}
+
+
+    .bannertext p {
+        font-size: 14px;
+    }
+    .form-group {
+        float:left; width:100%; 
+    }
+    .headerright ul li {
+        margin-right:40px; 
+    }
+    .headerright ul li:last-child {
+        margin-right: 40px;
+    }
+    .bannertext .btn-primary {
+        padding: 12px 0 12px;
+        width: 12%;
+    }
+    .mainheading .btn-primary {
+        padding: 12px 0 12px;
+        width: 12%;
+    }
+    .mainheading .view {
+        width: 47%;
+    }
+    .heading::before {
+        width: 200px;
+    }
+    .heading::after {
+        width: 200px;
+    }
+    .welcomeinner .media-left .fa {
+        font-size: 70px;
+    }
+    .welcomeinner .media-left {
+        padding-right: 20px;
+    }
+    .abouttext {
+        padding: 20px;
+    }
+    .input-group .form-control {
+        font-size: 13px;
+    }
+    .travellers {
+        font-size: 13px
+    }
+    .sthumb {
+        max-width: 350px;
+    }
+    .highlights {
+        width: 100%;
+    }
+    .hobbiesborder ul li a {
+        font-size: 11px;
+        padding: 0 12px;
+    }
+    .block3 .heading::before, .block3 .heading::after {
+        width: 250px;
+    }
+    .view {
+        width: 47%;
+    }
+    .form-group .radioButton span {
+        padding-right: 5px;
+    }
+
+}
+@media screen and (max-width:1024px) {
+
+
+.twoColumnNew table.table tr td span { font-size:16px;}
+
+
+   
+    .bannertext p {
+        font-size: 16px;
+    }
+    .profilegrey h2 {
+        font-size: 28px;
+    }
+    .informationdetail p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .docfile { min-height:111px;  }
+}
+@media screen and (max-width:1000px) {
+    .date {
+        width: 18.2%;
+    }
+    .travellers {
+        width: 18.2%;
+    }
+}
+@media screen and (max-width:992px) {
+.bannertext h1  { font-size:35px; }
+
+    .works {
+        margin: 70px 0 0;
+    }
+    .block2 {
+        padding-bottom: 40px;
+    }
+    .heading::before {
+        width: 100px;
+    }
+    .heading::after {
+        width: 100px;
+    }
+    .abouttext h3 {
+        font-size: 18px;
+    }
+    .abouttext p {
+        line-height: 22px;
+        padding: 5px 0 10px;
+        margin: 5px 0;
+    }
+    .readmore {
+        font-size: 14px;
+        line-height: 35px;
+        padding: 0 15px;
+    }
+    .abouttext {
+        padding: 12px;
+    }
+    .abouttext::after {
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid #ebebeb;
+        border-top: 20px solid transparent;
+        right: -20px;
+    }
+    .abouttext::before {
+        border-bottom: 21px solid transparent;
+        border-left: 21px solid #d9d9d9;
+        border-top: 21px solid transparent;
+        right: -22px;
+        top: 30px;
+    }
+    .footermenu li a {
+        font-size: 11px;
+        line-height: 11px;
+        padding: 0 2px 0 6px;
+    }
+   
+   
+    .headerright ul li {
+        margin-right: 44px;
+    }
+    .bannertext p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .profiledetail h2 {
+        font-size: 28px;
+    }
+    .profilegrey .rating3 ul {
+        width: 100%
+    }
+    .informationarea {
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+    }
+    .inner {
+        padding: 0 0 30px;
+    }
+    .socialform {
+        margin: 0 0 30px;
+    }
+    .alert {
+        margin: 0 0 30px;
+    }
+    .formcustomer h2 {
+        margin: 30px 0;
+    }
+    .nav-tabs > li > a {
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+    .block1 {
+        padding: 35px 0;
+    }
+    .block3 {
+        padding: 40px 0 0px 0px;
+    }
+    .heading {
+        margin-bottom: 15px;
+    }
+    footer {
+        margin-top: 50px;
+    }
+    .footersocial {
+        padding: 20px 0 10px;
+    }
+    .footermenu {
+        padding: 20px 0;
+    }
+    .smallThumb {
+        float: left;
+        width: 100%;
+    }
+    .smallThumb img {
+        width: 100%;
+    }
+    .desc {
+        float: left;
+        width: 100%;
+    }
+    .redblock h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .block3 .heading::before, .block3 .heading::after {
+        width: 170px;
+    }
+    .headerright ul li { font-size:13px; 
+    }
+
+    .headerright ul li:last-child {
+        margin-right: 10px;
+    }
+    .notification {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .persowelcomename {
+        font-size: 13px;
+    }
+    .persowelcomename {
+        margin-right:10px; 
+    }
+    .headerright ul li { margin-right:10px; 
+    }
+    .persowelcomename { padding-right:10px;  }
+}
+@media screen and (max-width:899px) {
+    .date {
+        width: 17.7%;
+    }
+    .bannertext .btn-primary {
+        float: right;
+    }
+}
+@media screen and (max-width:800px) {
+    
+    .editprofile.passwordEdit {
+        top: 156px;
+    }
+    
+    .editprofile.tips {
+        top: 0;
+    }
+    
+   
+    .input-group .form-control {
+        font-size: 12px;
+    }
+    .travellers {
+        font-size: 12px
+    }
+}
+@media screen and (max-width:767px) {
+
+.newBlockFeilds input { margin-bottom:10px;}
+
+
+
+.homefeilds .view , .homefeilds .date , .homefeilds .travellers{ width:100%;}
+.homefeilds .travellers{ margin-bottom:15px;}
+
+    .logo {
+        display: block;
+        float: none;
+        margin: auto;
+        width: 200px;
+    }
+    .logo img {
+        float: none;
+    }
+    .bannerouter {
+        margin-top: 0px;
+    }
+    .carousel-caption {
+        position: relative;
+    }
+    .bannertext {
+        width: 100%;
+        float: left;
+        background: #f56943;
+        padding: 40px 0px;
+    }
+    .bannertext h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        line-height: normal;
+    }
+    .view {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .date {
+        width: 48%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .dateright {
+        float: right;
+    }
+    .bannertext .btn-primary {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .heading h2 {
+        font-size: 35px;
+    }
+    .heading img {
+        width:125px;
+    }
+    .heading span {  
+        top: 8px; 
+    }
+    .heading::before {
+        top: 24px;
+    }
+    .heading::after {
+        top: 24px;
+    }
+    .block1 {
+        padding: 25px 0px;
+    }
+    .heading {
+        margin-bottom: 10px;
+    }
+    .welcomeinner .media-left .fa {
+        width: 70px;
+    }
+    .welcomeinner .media-body h2 {
+        padding-bottom: 0px;
+    }
+    .welcomeinner {
+        margin-bottom: 20px;
+    }
+    .abouttext {
+        position: relative;
+        width: 100%;
+        border-right: 1px solid #d9d9d9;
+    }
+    .abouttext:after {
+        display: none;
+    }
+    .aboutimageholder {
+        width: 100%;
+    }
+    .block3 {
+        padding: 25px 0px;
+    }
+    .footermenu li {
+        padding: 5px 0px;
+    }
+    .footersocial {
+        padding: 20px 0px 10px 0px;
+    }
+    .aboutimageholder {
+        width: 100%;
+    }
+    .sthumb {
+        margin: 0 0 20px 30px;
+    }
+    .sthumb {
+        max-width: 100%;
+        text-align: center;
+    }
+    .innerbanner .carousel-inner > .item > img {
+        display: none;
+    }
+    .innerbanner .carousel-caption {
+        padding: 0px;
+    }
+    .bannertext {
+        padding: 20px 0px;
+    }
+    .topcontent {
+        padding: 0 0 5px;
+    }
+    .borderbottom {
+        margin: 0 0 10px;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 21px;
+        line-height: 21px;
+        padding-bottom: 5px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 23px;
+        padding-bottom: 6px;
+    }
+    .content2 {
+        padding: 25px 0 35px;
+    }
+    .standardList ul {
+        padding-top: 0px;
+    }
+    .content3 {
+        padding: 25px 0;
+    }
+    .content4 {
+        padding: 25px 0;
+    }
+    .mrgbot h6 {
+        padding: 5px 0;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    .callnow {
+        text-align: center;
+    }
+    .panel-default > .panel-heading {
+        background-color: #f55741;
+        border-color: #f55741;
+        text-transform: uppercase;
+        font-family: "open_sansbold";
+        border-radius: 0px;
+        color: #fff;
+    }
+    .panel-default > .panel-heading:hover {
+        color: #ccc;
+    }
+    .alert {
+        margin: 10px 0px;
+    }
+    .searchleft select {
+        background-position: 98% 11px;
+    }
+    .searchleft {
+        margin-bottom: 30px;
+    }
+    .availabilty {
+        margin-bottom: 30px;
+    }
+    .navleft {
+        margin-bottom: 30px;
+    }
+    .scrolltable {
+        display: block;
+    }
+
+    .panel-body {
+        padding: 15px 0;
+    }
+    .tabbingBlock h2 {
+        font-size: 16px;
+    }
+    .editprofile {
+        top: 10px;
+        right: 10px;
+    }
+    .callnow {
+        margin-bottom: 15px;
+    }
+    .alert-dismissable .close, .alert-dismissible .close {
+        right: -3px;
+    }
+
+    .socialform {
+        margin: 0 0 20px;
+    }
+    .formcustomer h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .socialform li {
+        font-size: 13px;
+    }
+    .socialform li a {
+        padding-right: 15px;
+        line-height: 40px;
+    }
+    .socialform li a span {
+        margin-right: 15px;
+    }
+    .socialform li a span {
+        width: 40px;
+        line-height: 40px;
+    }
+    .welcomeinner .media-body h2 {
+        font-size:20px;
+    }
+    .panel .table-responsive {
+        border: 0px;
+    }
+    .detailwhite .table > tbody > tr > td {
+        width: 33.3%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .travellers {
+        float: right;
+        margin-left: 0;
+        width: 48%;
+    }
+    .abouttext h3 {
+        height: auto;
+        overflow: visible;
+        margin: 0px;
+    }
+    .abouttext p {
+        height: auto;
+        overflow: visible;
+        margin: 0px;
+    }
+    .abouttext::before {
+        display: none;
+    }
+    .mainheading .view {
+        width: 100%;
+    }
+    .mainheading .btn-primary {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .verification {
+        margin-bottom: 30px;
+    }
+    .reviewguide {
+        padding-top: 25px;
+    }
+    .table {
+        margin-bottom: 15px;
+    }
+    .smallThumb {
+        float: left;
+        width: 48%;
+    }
+    .desc {
+        float: right;
+        width: 48%;
+    }
+    .desc .title {
+        margin-top: 0px;
+    }
+    .message table {
+        border-top: 0 solid #ddd; 
+        border-left: 0 solid #ddd; 
+        border-right: 0 solid #ddd; 
+    }
+    /*==================Responsive js validation=========================*/
+
+    .icon.attention:before {
+        content: none !important;
+    }
+    .icon.attention ul {
+        margin: 0px auto 0 !important;
+        width: 100% !important;
+        display: inline-block !important;
+        position: relative !important;
+        text-align: left !important;
+        bottom: 0px !important;
+    }
+    .icon {
+        position: relative !important;
+        right: 0px !important;
+        top: -8px !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0px !important;
+    }
+    .icon.attention ul:before {
+        position: relative !important;
+    }
+    .card-list li, .icon, .icon.attention:hover ul {
+        display: inline-block !important;
+    }
+    .redblock h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .headerright {
+        float:left;
+        width:100%;
+        text-align:center;
+    }
+    .innerheadcenter {
+        display:inline-block;
+
+    }
+    .block3 .heading::before, .block3 .heading::after {
+        width: 150px;
+    }
+    .help-block.help-block-error {
+        float:left; 
+    }
+
+    /*==================Responsive js validation=========================*/
+}
+@media screen and (max-width:640px) { 
+    .block3 .heading::before, .block3 .heading::after {
+        width: 125px;
+        display: none;
+    }
+    #message-form td {
+        min-width:110px; 
+    }
+}
+@media screen and (max-width:568px) {
+    .headerright ul li:last-child {
+        margin-right: 40px;
+    }
+    .headerright ul {
+        width:100%; 
+    }
+    .heading::before {
+        display: none;
+    }
+    .heading::after {
+        display: none;
+    }
+    .personsearch .media-left, .personsearch .media > .pull-left {
+        padding-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    .profiledetail .media-left {
+        padding-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    .profilegrey .media-left {
+        width: 100%;
+    }
+    .greyprofileinner {
+        text-align: center;
+    }
+    .rating3 .orangebtn {
+        color: #fff;
+        display: inline-block;
+        float: none;
+        margin-right: 0px;
+    }
+    .guideprofilewrapper {
+        margin: auto;
+    }
+    .profilewrapper {
+        margin: auto;
+    }
+    .greyprofileinner .orangebtn {
+        display: inline-block;
+        float: none;
+        margin-top: 15px;
+    }
+    .profilegrey .rating3 ul {
+        width: auto;
+    }
+    .rating3 h6 {
+        float: right;
+    }
+    .profilegrey .media-left {
+        padding-right: 0;
+    }
+    .informationdetail .informationarea p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .reviewguide li {
+        margin-top: 15px;
+    }
+    .reviewguide ul li .media-left, .reviewguide ul li .media > .pull-left {
+        margin-bottom: 20px;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .profiledetail h6 {
+        text-align: center;
+    }
+    .profiledetail h2 {
+        text-align: center;
+    }
+    .editprofile {
+        right: 0;
+        top: 0;
+        position: relative;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .editprofile.passwordEdit {     
+        left: 6px;
+        top: 0;
+    }
+    
+    .editprofile.tips {
+        top: 0;
+    }
+
+    .socialform li {
+        margin-bottom:10px;
+    }
+    .persowelcomename {
+        font-size:13px; 
+        margin-right:0px; 
+    }
+    .headerright ul li:last-child {
+        margin-right: 16px;
+    }
+    .languagesel {
+        padding: 8px 20px 8px 5px;
+    }
+    .headerright ul li:first-child {
+        padding-left: 0;
+        float:none; 
+        padding:0px 10px; 
+
+    }  
+    .headerright ul li{ 
+        float:none; 
+        padding:0px 10px; 
+        display:inline-block; 
+        margin-right:0px; 
+    }
+    .headerright ul li:last-child{ 
+        float:none; 
+        margin-right:0px; 
+        padding:0px 10px; 
+    }
+    .headerright ul {
+        display:inline-block; 
+    }
+    .personwelcome {
+        display: inline-block;
+        float: none;
+    }
+    .notification {
+        display: inline-block;
+        float: none;
+    }
+    .languagesel {
+        display: inline-block;
+        float: none;
+    }
+}
+
+
+@media screen and (max-width:580px) { 
+
+
+.twoColumnNew .left , .twoColumnNew .right { width:100%; float:left;}
+}
+
+
+@media screen and (max-width:480px) { 
+
+
+.full {width:100% ;float:left;}
+p.price , p.priceTotal { text-align:left;}
+#step2 .twoColumnNew div{float: left; width:100%;}  
+
+
+
+
+
+
+
+    .languagesel {
+        background: url("../images/selarrow.jpg") 80px 10px no-repeat #efefef;
+        padding: 8px 20px 8px 5px;
+    }
+
+}
+@media screen and (max-width:479px) {
+    .headerright ul li:last-child {
+        margin-right: 15px;
+    }
+    .bannertext h1 {
+        font-size: 30px;
+        line-height:30px;
+    }
+    .headerright ul li {
+        margin-right:5px;
+        font-size: 12px;
+    }
+    .date {
+        width: 100%;
+    }
+    .persondetailleft {
+        float: left;
+        width: 100%;
+    }
+    .persondetailright {
+        float: left;
+        font-size: 30px;
+        text-align: left;
+        width: 100%;
+        display: inline-flex;
+        padding-bottom: 10px;
+    }
+    .personinterest {
+        float: left;
+        width: 100%;
+    }
+    .rating2 {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .rating2 ul {
+        float: left;
+    }
+    .headinginner span {
+        width: 100%;
+        text-align: left;
+    }
+    .rating3 h6 {
+        float: right;
+    }
+    .detailwhite {
+        padding: 10px;
+    }
+    .profilegrey .rating3 h6 {
+        float: left;
+    }
+    .travellers {
+        float: right;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .smallThumb {
+        float: left;
+        width: 100%;
+    }
+    .desc {
+        float: left;
+        width: 100%;
+    }
+    .desc .title {
+        margin-top: 10px;
+    }
+
+    .headerright ul li {
+        text-transform:capitalize;
+    }
+    .persowelcomename {
+        padding-right:10px;
+    }
+    .headerright ul li {
+        background:url(../images/borderright.png) center right no-repeat;
+        margin-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .headerright ul li:first-child {
+        padding-left:0px;
+    }
+    .headerright ul li:last-child {
+        margin-right:5px;
+        background:none;
+    }
+    .languagesel {
+        background:url("../images/selarrow.jpg") 73px 10px  no-repeat  #efefef ;
+        padding: 8px 20px 8px 5px;
+        font-size:13px;
+    }
+    .headerright ul li {
+        padding-right:5px; 
+        background:none; 
+    }
+    .notification .fa {
+        font-size: 14px;
+    } 
+    .persowelcomename {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size:12px; 
+    }
+    .personname li {
+        margin-bottom:5px; 
+    }
+    .notification {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width:359px) {
+    .headerright ul li {
+        font-size: 12px;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+    }
+    .heading img {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width:345px) {
+    .uib-datepicker-popup.dropdown-menu{
+        left:-20px !important;
+    }
+}
+
+
+
+
+@media screen and (max-width:920px) { 
+    .tableOuter table { float:left; width:750px;}
+    .tableOuter { overflow-x:scroll;}
+    .scrolltable.new { display:block;}
+    .tableOuter .table { max-width:inherit}
+}
+@media screen and (max-width:880px) { 
+    .radioButton input[type="radio"] { margin-right:0px;}
+}
+
+
+@media screen and (max-width:767px) { 
+    .message .tableOuter table { border:1px solid #ddd; border-bottom:0px solid #000;}
+}
+@media screen and (max-width:420px) { 
+    .fullfeild { float:left; width:100%;}
+}
+
+
+#frmBecomeGuide  select { background:none !important;}
+
+@media screen and (max-width:500px) {
+	.tpOuter { float:left; width:100%; padding:0 0 20px 0; }
+	 .field-booking-payment_method.required .col-xs-8 { width:100% ; padding:0 0 0 0;}
+} 

@@ -1,0 +1,689 @@
+@font-face {
+    font-family: 'hacen_saudi_arabiaregular';
+    src: url('../fonts/hacen-saudi-arabia-webfont.woff2') format('woff2'),
+         url('../fonts/hacen-saudi-arabia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hacen_tunisia_ltregular';
+    src: url('../fonts/hacen-tunisia-lt-webfont.woff2') format('woff2'),
+         url('../fonts/hacen-tunisia-lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'primeregular';
+    src: url('../fonts/prime_regular-webfont.woff2') format('woff2'),
+         url('../fonts/prime_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*---------------------------Reset Css------------------------------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	list-style: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: normal;
+	word-wrap: break-word;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+article, aside, details, fig, caption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: #ffffff;
+	
+}
+a {
+	color: #878961;
+	text-decoration: none;
+	outline: none;
+	transition: all linear 0.3s;
+	-webkit-transition: all linear 0.3s;
+	-moz-transition: all linear 0.3s;
+	-o-transition: all linear 0.3s;
+	
+}
+a:hover {
+	outline: none;
+	text-decoration: none;
+	color: #71468B;
+}
+
+a img {
+	border: none;
+	outline: none;
+	text-decoration: none;
+	
+}
+a:hover img {
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+input, select, textarea, button {
+	vertical-align: middle;
+	outline: none;
+	border: none;
+}
+select {
+	-webkit-appearance: inherit;
+}
+.noImage {
+	background: url(../images/noimage.png) no-repeat center center #CCCCCC !important;
+	color: #535353;
+	font-weight: bold;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+.noImage > img {
+	visibility: hidden;
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .navbar-default .navbar-nav > li > span { padding:0 29px;}
+}
+
+
+
+/********************/
+footer { float:left; width:100%;}
+.footerOuter { float:left; width:100%; background:#54b4e6; padding:35px 0 15px 0;}
+ul.footerListing { float:left; width:100%;}
+ul.footerListing li { float:left; width:100%; background:url(../images/dot.png) no-repeat  left 10px; padding:0 0 19px 10px;}
+ul.footerListing li a { font-size:16px; color:#ffffff;font-family: 'hacen_tunisia_ltregular'; }
+ul.footerListing li a:hover , ul.footerListing li.active a { color:#1b77a7;}
+.copyrightBlock { float:left; width:100%; background:#1b77a7; padding:12px 0 11px;}
+.copyrightBlock  p { padding:0 0 0 0; line-height:normal; color:#93b5cd; font-size:12px;font-family: 'hacen_tunisia_ltregular'; }
+.newsBlock { float:left; width:100%; padding:53px 0 60px 0;}
+
+.thead { float:left; width:100%; background:url(../images/greybrdr.jpg) repeat-x left 20px; margin-bottom:31px;}
+.thead span { float:left; padding-right:20px; background:#f5f5f5; color:#2c2c2c; text-transform:uppercase; font-size:34px;font-family: 'primeregular';}
+.newsThumb { float:left; width:100%; border-radius:3px; margin-bottom:10px;}
+.newsThumb img { float:left; width:100%; height:auto; border-radius:3px; max-width:100%;}
+.desc { float:left; width:100%; padding:0 0 20px 0;}
+.date { float:left; width:100%; color:#656565; border-bottom:1px solid #dcdcdc; font-size:12px;font-family: 'hacen_tunisia_ltregular'; padding-bottom:10px; margin-bottom:8px; }
+.title { float:left; width:100%; color:#2c2c2c; font-size:22px; line-height:normal;font-family: 'hacen_tunisia_ltregular'; margin-bottom:3px;}
+.desc p { color:#656565; padding:0 0 10px 0; font-size:16px; font-family: 'hacen_tunisia_ltregular'; line-height:normal; }
+a.readmore { color:#21559b;font-family: 'primeregular'; font-size:14px; text-decoration:underline;}
+a.readmore:hover  { text-decoration:none;color:#21559b;}
+a.seemore { color:#21559b;font-family: 'primeregular'; font-size:14px; text-decoration:underline; float:right;}
+a.seemore:hover  { text-decoration:none;color:#21559b;}
+ul.serviceListing { float:left; width:100%; border:1px solid #7fb138; border-radius:3px; margin-bottom:7px;}
+ul.serviceListing li{ float:left; width:100%; border-bottom:1px solid #7fb138;}
+ul.serviceListing li:last-child { border-bottom:0px solid #7fb138;}
+ul.serviceListing li a { float:left; width:100%; background:#98cb4f; color:#ffffff; padding:18px 20px 11px; font-size:19px;text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.10); font-family: 'hacen_tunisia_ltregular'; ;}
+ul.serviceListing li a:hover , ul.serviceListing li.active a  { background:#7fb138;}
+.topBorder { float:left; width:100%; border-top:1px solid #c4c4c4; padding:30px 0 0 0; margin:16px 0 0 0;}
+.readmorenews { font-size:18px; color:#ffffff;font-family: 'primeregular';  background:#21559b; border-radius:3px 3px 3px 3px; padding:9px 20px 8px; float:left; text-transform:uppercase; }
+.readmorenews:hover { color:#ffffff;background:#98cb4f;}
+.largeThumb , .smallThumb { float:left; width:100%; position:relative; background:#112f57;display:inline-block;
+ -webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);transition:all 0.3s ease;border-radius:3px 3px 3px 3px;}
+.largeThumb:hover , .smallThumb:hover {-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+.smallThumb { margin-bottom:30px;}
+.smallThumb.last { margin-bottom:0px;}
+.largeThumb img , .smallThumb img { float:left; width:100%; height:auto; opacity:0.20; border-radius:3px 3px 3px 3px;}
+.captiontext { position:absolute; top:40%; text-align:center; width:100%; font-size:26px;font-family: 'primeregular';  color:#ffffff; }
+.smallThumb .captiontext { top:38%;}
+.largeThumb span , .smallThumb span { position:absolute; top:0; right:0; bottom:0; left:0; margin:auto;}
+.thumbBlocks { float:left; width:100%; padding:53px 0px 60px;  background:#e5e5e5; }
+.centeredText { float:left; width:100%; background:url(../images/greybrdr.jpg) repeat-x; text-align:center;}
+.centeredText span { color:#2c2c2c;}
+.centeredText { float:left; width:100%; background:url(../images/greybrdr.jpg) repeat-x left 20px; margin-bottom:31px; text-align:center}
+.centeredText span {padding:0 20px; background:#e5e5e5; color:#2c2c2c; text-transform:uppercase; font-size:34px;font-family: 'primeregular';}
+.categoreis { float:left; width:100%; padding:53px 0 60px; background:#f5f5f5; }
+.categoreis .centeredText span {background:#f5f5f5;}
+.categoreis .centeredText {width:100%;}
+.catBlock { float:left; width:100%; background:#ffffff; border:1px solid #d2d2d2; border-radius:3px 3px 3px 3px; padding:10px; }
+
+.catThumb { float:left; width:100%; margin-bottom:12px;}
+.catThumb img { float:left; width:100%; height:auto;}
+.catDesc { float:left; width:100%;color:#2c2c2c; font-size:20px;font-family: 'primeregular'; line-height:normal;}
+.catBlock a:hover .catDesc { color:#54B4E6;}
+.imagesBlock { float:left; width:100%; margin:0 0 30px;}
+.add { float:left; width:100%; border:1px solid #d2d2d2; margin-bottom:30px; border-radius:3px 3px 3px 3px; min-height:252px; background:#ffffff;}
+.add.last { margin:0px; }
+.add img { float:left; width:100%; height:auto; max-width:100%;}
+.newListing { float:left; width:100%; padding:90px 0 60px; background:#fff;}
+.newListing .centeredText span {background:#ffffff;}
+.listingImg { float:left; width:100%;}
+.listingImg a { float:left; width:100%; position:relative;border-radius:3px 3px 3px 3px; background:#000;}
+.listingImg a img  { float:left; width:auto; height:auto; max-width:100%; border-radius:3px 3px 3px 3px; opacity:0.6;}
+.text { position:absolute; left:0px; bottom:26px; padding:0 20px; width:100%;}
+.text h6 { padding:0 0 6px 0; margin:0 0 0 0; color:#ffffff; font-size:20px;font-family: 'primeregular';}
+.text p { padding:0 0 0 0; margin:0 0 0 0; color:#ffffff; font-size:18px; font-family: 'hacen_tunisia_ltregular'; line-height:18px;}
+.threeCol { float:left; width:100%; margin-bottom:30px;}
+.threeCol.last { margin:0px;}
+.heart { position:absolute; top:30px; right:20px; cursor:pointer;}
+.fillheart { display:none;}
+.heart.active .fillheart { display:block;}
+.heart.active .blankheart { display:none;}
+.centeredLink { float:left; width:100%; text-align:center;}
+.centeredLink a { float:none; display:inline-block;}
+.bannerOuter { float:left; width:100%; position:relative;}
+.bannerOuter img { float:left; width:100%; height:auto;}
+.bannerText {bottom: 100px;position: absolute; background:url(../images/trans.png) repeat left top; max-width:460px; padding:32px 32px 28px; border-radius:3px 3px 3px 3px;}
+.bannerText h1 { padding:0 0 10px 0; margin:0 0 0 0; color:#ffffff; font-size:34px;font-family: 'primeregular'; text-transform:none; }
+.bannerText span { float:left; width:100%; color:#98cb4f;font-family: 'primeregular'; text-transform:uppercase; padding:0 0 10px 0; font-size:22px;}
+.bannerText p { font-size:20px; line-height:21px; padding:0 0 16px 0;font-family: 'hacen_tunisia_ltregular'; color:#ffffff;}
+.yellowBlock { float:left; width:100%; background:#ffae42; padding:30px 0px 0; margin:-1px 0 0 0;}
+.selectBox { float:left; width:100%; padding:3px; background:#ffffff; border-radius:3px 3px 3px 3px;}
+.selectBox select { float:left; width:100%; padding:5px 2px 5px; color:#1d1d1d; font-size:16px;font-family: 'hacen_tunisia_ltregular';}
+.selectBox i.fa { float:left; color:#a3a3a3; margin:9px 0 0 5px; font-size:16px;}
+.selectregion select { width:90%;}
+.sel .readmorenews { width:100%; text-align:center;}
+.sel span { text-align:center; float:left; width:100%; color:#684415; font-size:12px;font-family: 'hacen_tunisia_ltregular'; padding-top:7px;}
+.border { float:left; width:100%; border-bottom:1px solid #e2942c; padding:0 0 7px 0; margin:0 0 0px 0;}
+.topGreenBar { float:left; width:100%; background:#65FF01;}
+.toggle{display:inline-block; cursor:pointer;} 
+.less {  display:none; }
+.toggle.expanded .less{display:block;   }
+.toggle.expanded .more{display:none;   }
+.slidebox label { float:left; width:100%; color:#2c2c2c; font-size:16px;font-family: 'primeregular'; margin-bottom:3px;}
+.slidebox .left { float:left; width:48%;}
+.slidebox .right { float:right; width:48%;}
+.slidebox input { float:left; width:100%; background:#ffffff; border-radius:3px 3px 3px 3px; margin-bottom:7px; padding:6px 10px 7px;}
+.slidebox .selectBox select { padding:0 5px; font-size:14px; margin:5px 0 2px 0;}
+.slidebox .selectBox { padding:2px 4px 0; margin-bottom:7px;}
+.stext { color:#2c2c2c; font-size:12px;font-family: 'hacen_saudi_arabiaregular'; float:left; width:100%;}
+.marg20 { float:left; width:100%; margin:0 0 20px 0;}
+.checkboxBlock input[type="checkbox"] { float:left; width:13px; height:13px; margin:0px 10px 0 0; padding:0px;}
+.checkboxBlock { float:left; width:100%; margin:0 0 6px 0; display:table;}
+.checkboxBlock span { float:none; color:#2c2c2c;font-family: 'hacen_saudi_arabiaregular'; font-size:12px; display:table-cell; width:100%;}
+.checkboxBlock input { float:left; display:table-cell;}
+.toggle { color:#2c2c2c; font-size:12px;font-family: 'primeregular'; text-transform:uppercase;
+background: rgba(255,173,66,1);
+background: -moz-linear-gradient(top, rgba(255,173,66,1) 0%, rgba(238,152,40,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,173,66,1)), color-stop(100%, rgba(238,152,40,1)));
+background: -webkit-linear-gradient(top, rgba(255,173,66,1) 0%, rgba(238,152,40,1) 100%);
+background: -o-linear-gradient(top, rgba(255,173,66,1) 0%, rgba(238,152,40,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,173,66,1) 0%, rgba(238,152,40,1) 100%);
+background: linear-gradient(to bottom, rgba(255,173,66,1) 0%, rgba(238,152,40,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffad42', endColorstr='#ee9828', GradientType=0 );
+padding:15px 19px 9px; border-radius:3px 3px 3px 3px;}
+.centered { text-align:center; position:relative; float:left; width:100%;}
+.centered .toggle { position:relative; bottom:-35px;}
+.slidebox { margin-top:24px;}
+.logo { float:left; width:100%; max-width:214px; margin:0 55px 0 0;}
+.logo img { float:left; width:100%; height:auto;}
+.addBlock { float:left;}
+.addBlock img { float:left; width:100%; height:auto;}
+.logoAdd { float:left; width:100%; margin:20px 0 15px;} 
+.socialIcons { float:left; width:100%;}
+.socialIcons ul { float:left; width:100%;}
+.socialIcons ul li { float:left;}
+.socialIcons ul li a i.fa { font-size:22px; float:left; padding-top:6px;}
+.searchdetail .socialIcons ul li a i.fa {
+
+    font-size: 16px;
+
+}
+.socialIcons ul li span { color:#c2c2c2; font-size:24px; margin:0 10px;}
+.facebook { color:#3c5dab; }
+.facebook:hover { color:#253e77; }
+.twitter { color:#2caae1; }
+.twitter:hover { color:#1d89b8; }
+.google { color:#db4437; }
+.google:hover { color:#a82c21; }
+.android { color:#a1c431; }
+.android:hover { color:#738e1d; }
+.apple { color:#bbc6c9; }
+.apple:hover { color:#9a9b9c; }
+.linkedin { color:#007bb6;}
+.linkedin:hover { color:#04577e;}
+.rightlinks { float:right; }
+.rightlinks a { float:left; background:#2b4f80; color:#ffffff; font-size:11px;font-family: 'hacen_tunisia_ltregular'; text-transform:uppercase; margin:0 0 0 10px; padding:5px 25px 3px; border-radius:3px 3px 3px 3px;}
+.rightlinks a:hover { background:#98CB4F;} 
+nav  {border-top:1px solid #e5e5e5 !important; float:left; width:100%; padding:5px 0 0 0; margin-top:17px !important;}
+.navbar-default {background-color:transparent; border:0px solid #e5e5e5;}
+.navbar {border-radius: 0px; margin:0 0 0 0; min-height:inherit; }
+.navbar-default .navbar-nav > li > a { padding:0px 0 4px 0; float:left; color:#151515;font-size:16px;font-family: 'hacen_tunisia_ltregular';border-bottom: 3px solid rgba(0, 0, 0, 0);}
+.navbar-default .navbar-nav > li > span { float:left; font-size:16px; color:#cccccc; padding:0 27px;} 
+.navbar-collapse { padding:0px;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {background-color:transparent;color: #ef9552; border-color:#ef9552;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {background-color:transparent;color: #ef9552; border-color:#ef9552;}
+p.menu { display:none;}
+.language { float:left; padding:8px 10px 7px 0; border-right:1px solid #c1e095;}
+.language ul { float:left; border-radius:3px 3px 3px 3px; border-bottom:1px solid #cce5a7;}
+.language ul li { float:left;background: rgba(60,100,156,1);
+background: -moz-linear-gradient(top, rgba(60,100,156,1) 0%, rgba(41,75,124,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,100,156,1)), color-stop(100%, rgba(41,75,124,1)));
+background: -webkit-linear-gradient(top, rgba(60,100,156,1) 0%, rgba(41,75,124,1) 100%);
+background: -o-linear-gradient(top, rgba(60,100,156,1) 0%, rgba(41,75,124,1) 100%);
+background: -ms-linear-gradient(top, rgba(60,100,156,1) 0%, rgba(41,75,124,1) 100%);
+background: linear-gradient(to bottom, rgba(60,100,156,1) 0%, rgba(41,75,124,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c649c', endColorstr='#294b7c', GradientType=0 );
+border-radius:3px 3px3px 3px;}
+.language ul li:first-child { border-radius:3px 0px 0px 3px; }
+.language ul li:last-child { border-radius:0px 3px 3px 0px; }
+.language ul li a {color:#fff; text-transform:uppercase; padding:5px 9px 3px; float:left;font-family: 'hacen_tunisia_ltregular'; font-size:11px; }
+.language ul li.active a , .language ul li:hover a { color:#21310a; background:#6e9931; border-radius:3px 0 0 3px;}
+.language ul li.active:last-child a , .language ul li:hover:last-child a { color:color:#21310a; background:#6e9931;border-radius:0px 3px 3px 0px;}
+.topSel { float:left; margin: 8px 0px 0px 10px;}
+.topSel select { border:0px solid #000; padding:3px; min-width:50px; font-size:11px; color:#000000;font-family: 'hacen_tunisia_ltregular';	-moz-appearance: none; background:url(../images/selarrowtop.png) no-repeat 90% 9px #fff;} 
+.loginBlock { float:right;}
+a.login { float:left; border:1px solid #000000; border-radius:3px 3px 3px 3px; color:#000000; padding:3px 11px 2px; margin:8px 7px 0 0; text-transform:uppercase;font-family: 'hacen_tunisia_ltregular';}
+a.register { float:left; background:#ca600f;border-radius:3px 3px 3px 3px; color:#ffffff; padding:4px 11px 2px; margin:8px 0 0 0; text-transform:uppercase;font-family: 'hacen_tunisia_ltregular';}
+a.login:hover { color:#ffffff; border-color:#ffffff;}
+a.register:hover { color:#000000;}
+.topMenu { float:left;}
+.topMenu ul { float:left;}
+.topMenu ul li { float:left; border-right:1px solid #c1e095; padding:11px 10px 11px 0; margin-right:10px; }
+.topMenu ul li a { color:#000000; font-size:13px;font-family: 'hacen_tunisia_ltregular';}
+.topMenu ul li:hover a , .topMenu ul li.active a { *color:#fff; text-decoration: underline;}
+.menutop { display:none;}
+#outer { float:left; width:100%; position:relative;}
+.sideTopBar {float: right;}
+.mapOuter { float:left; width:100%; height:auto;}
+.mapOuter img { float:left; width:100%; height:auto;}
+.headinginner { float:left; width:100%; background:url(../images/innerheading.jpg) no-repeat left top; background-size:cover; padding:41px 0 39px;}
+.centertext { float:left; width:100%; text-align:center;}
+h1 { font-size:40px;font-family: 'primeregular'; color:#ffffff; text-transform:uppercase; }
+h2 { font-size:34px;font-family: 'primeregular'; text-transform:uppercase; padding-bottom:17px; color:#2c2c2c; }
+h3 { font-size:26px;font-family: 'primeregular'; text-transform:uppercase; padding-bottom:19px; color:#2c2c2c; }
+h4 { font-size:22px;font-family: 'hacen_tunisia_ltregular';text-transform:uppercase; padding-bottom:18px; color:#1d2f46; }
+h5 {   }
+h6 { font-size:18px;font-family: 'primeregular'; padding:0 0 10px 0; color:#656565; }
+p { font-size:16px; font-family: 'hacen_tunisia_ltregular'; padding:0 0 7px 0; line-height:20px;}
+.content { float:left; width:100%; background:url(../images/contentbg.png) no-repeat center bottom #f5f5f5; padding:60px 0 75px 0;}
+.topmarg { margin-top:-3px;}
+.borderbox { float:left; width:100%; border-bottom:1px solid #c4c4c4; padding:0 0 48px 0 ; margin:0 0 54px 0;}
+.highlight { float:left; width:48%; border-bottom:1px solid #c4c4c4;padding:0 0 23px 0 ; margin:0 0 23px 0;}
+.highlight p { color:#ef9552; font-size:20px;font-family: 'primeregular'; line-height:26px; padding:0 0 0 0;  }
+.sthumb { float:right; width:100%; max-width:555px; height:auto; margin:0 0 10px 30px; border-radius:3px 3px 3px 3px; }
+.sthumb img { float:left; width:100%; height:auto; border-radius:3px 3px 3px 3px;}
+.twoCol { padding:15px 0 0 0;}
+.graphics { float:left; width:100%; background:url(../images/graphics.jpg) no-repeat left top; background-size:cover; padding:50px 0; margin:48px 0 53px;}
+.twosection { float:left; width:100%;}
+.smallImg { float:left; width:100%; height:auto;}
+.smallImg img { float:left; width:100%; height:auto; border-radius:3px 3px 3px 3px;}
+.desctext { float:left; width:100%;}
+.desctext .title { color:#ffffff; font-size:22px; padding:0 0  4px 0 ; margin:0 0 0 0;font-family: 'hacen_tunisia_ltregular';}
+.desctext p { color:#ffffff;}
+.desbttn { background:#21559b; border-radius:3px 3px 3px 3px; color:#ffffff; text-transform:uppercase;font-family: 'primeregular'; font-size:18px; padding:9px 12px 8px; margin-top:8px;}
+.desbttn:hover { background:#98cb4f;}
+.standardList { float:left; width:100%; padding-top:32px;}
+.standardList ul { float:left; width:100%;}
+.standardList ul li { float:left; width:100%; padding:0 0 0 16px; color:#ef9552; font-size:16px; font-family: 'hacen_saudi_arabiaregular'; background:url(../images/arrow.png) no-repeat left 7px; border-bottom:1px solid  #e0e1e1; padding-bottom:8px; margin-bottom:9px;}
+.standardList ul li:last-child{ border-bottom:none;}
+.standardList ul li a  { color:#ef9552; font-size:16px; font-family: 'hacen_saudi_arabiaregular';}
+.standardList ul li a:hover { text-decoration:underline;} 
+.inputText { float:left; width:100%; background:#f5f5f5; border:1px solid #d2d2d2;  border-radius:3px 3px 3px 3px; padding:8px 10px 9px;color:#2c2c2c;font-family: 'primeregular'; font-size:16px;}
+.standardForm { float:left; width:100%; background:#ffffff; border:1px solid #d2d2d2; border-radius:3px 3px 3px 3px; padding:26px 15px 18px; margin-bottom:60px;}
+.standardForm label { float:left; width:100%; color:#2c2c2c;font-family: 'primeregular'; font-size:16px; padding:0 0 5px 0;}
+.fullWidth { float:left; width:100%; padding:0 0 11px 0;}
+.textareatext {float:left; width:100%; background:#f5f5f5; border:1px solid #d2d2d2;  border-radius:3px 3px 3px 3px; padding:10px;color:#2c2c2c;font-family: 'primeregular'; font-size:16px; height:118px; resize:none;}
+.standardForm .selectBox {background:#f5f5f5; border:1px solid #d2d2d2;  border-radius:3px 3px 3px 3px;}
+.standardForm .selectBox select {background:#f5f5f5; padding:4px 2px;}
+.submit { background:#21559b; border-radius:3px 3px 3px 3px; color:#ffffff; text-transform:uppercase;font-family: 'primeregular'; font-size:18px; padding:9px 20px 8px;}
+.submit:hover { background:#98cb4f;}
+.captcha { float:left; width:100%; margin-top:5px;}
+.captcha img { float:left; width:auto; max-width:100%;}
+.contAdd { float:left; width:100%; height:auto;}
+.contAdd img { float:left; width:auto; height:auto; max-width:100%;}
+.radio { float:left; margin:0 15px 0 0; }
+.radio input[type="radio"] { float:left; margin:1px 0 0 0; position:inherit;}
+.radio + .radio { margin:0 15px 0 0;}
+.radio span { color:#2c2c2c; font-size:12px;font-family: 'hacen_saudi_arabiaregular'; padding:0 5px;}
+.testimonial , .career{ float:left; width:100%; background:#FFF; border:1px solid #d2d2d2; border-radius:5px; padding:20px 0px;}
+.media-left{ float:left;}
+.testimonial .media-left img{ border-radius:50%; border:1px solid #d7d7d7;}
+.testimonial .media-body  p{ background:url(../images/colon.png) no-repeat left top; font-size:18px; line-height:23px; padding-top:14px; padding-bottom:2px;}
+.testimonial .media-body small.name{ font-size:14px; color:#f09852;   font-family: 'primeregular';}
+.testimonial .media , .career .media{ padding:20px 20px 23px; border-bottom:1px solid #d2d2d2; margin-top:0;}
+.testimonial .media:first-child , .career .media:first-child{ padding-top:0;}
+.testimonial .media:last-child , .career .media:last-child { border-bottom:none;}
+.testimonial .media-left , .career .media-left{ padding-right:16px;}
+.testimonial .media:last-child , .career .media:last-child { padding-bottom:0;}
+.pagination > li > a, .pagination > li > span{ margin-right:5px; border-radius:5px; border:1px solid #b8b8b8; font-size:14px; color:#475663;  font-family: 'hacen_tunisia_ltregular'; padding:7px 12px;line-height:16px;}
+.pagination > li a span { line-height:12px;}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus , .pagination > li.active > a {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb655+0,ef9552+100 */
+background: #ffb655; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb655 0%, #ef9552 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb655 0%,#ef9552 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb655 0%,#ef9552 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb655', endColorstr='#ef9552',GradientType=0 ); /* IE6-9 */
+    border-color:transparent;color: #fff;z-index: 2;}
+.advertisement{ margin-top:18px; float:left; width:100%;}
+.news .thead{ margin-bottom:12px;}
+.news{ float:left; width:100%; margin-top:52px;}
+.news .media{ float:left; border-bottom:1px solid #c4c4c4; padding-bottom:10px; margin-bottom:10px; margin-top:0;}
+.news .date{ border:none; margin-bottom:0; padding-bottom:0px;}
+.news .media-left img{ border-radius:5px;}
+.news .media-left{ padding-right:12px;}
+.news p { padding-bottom:0px;}
+.news p a { font-size:18px; color:#2c2c2c; line-height:22px;}
+.news p a:hover { color:#ef9552; text-decoration:underline;}
+.radioOuter { float:left; width:100%; margin:8px 0 0 0;}
+.warning {float: left;width: 100%;background: #ef9552;margin: 3px 0 6px 0;}
+span.pos {display: block;width: auto;padding: 10px 20px 10px 36px;color: #fff; font-family: 'hacen_tunisia_ltregular';	font-size: 14px;background: url(../images/pos.png) 8px 14px no-repeat;line-height: 20px;}
+span.neg {display: block;width: auto;padding: 10px 20px 10px 36px;color: #fff; font-family: 'hacen_tunisia_ltregular';	font-size: 14px;background: url(../images/neg.png) 8px 14px no-repeat;line-height: 20px;}
+.news .media-body  { overflow:visible;}
+.pagination { float:left; width:100%; margin:20px 0 36px 0; }
+.career .media-left { width:80%;}
+.career .media-body .submit { float:right; margin-top:20px; }
+.career .date { border:0px solid #000; padding:0 0 0 0; margin:0 0 8px 0;}
+.career .media-left p { padding:0 0 0 0; line-height:normal;}
+.career p.jobtitle { color:#252525; font-size:16px;font-family: 'hacen_tunisia_ltregular'; line-height:18px;}
+.career p.bluetext { color:#21559b; font-size:18px;font-family: 'primeregular'; line-height:23px; padding-bottom:8px;}
+.career p span { color:#8d8d8d; font-size:12px; line-height:normal;font-family: 'hacen_tunisia_ltregular'; line-height:12px; padding-right:16px; float:left;}
+.career p span + span { text-transform:uppercase;}
+.career p span i.fa { float:left; margin:0 6px 0 0; font-size:14px;}
+.propertydetail { float:left; width:100%; background:#FFF; border:1px solid #d2d2d2; border-radius:5px;}
+.propertydetail.marginBottom{ margin-bottom:60px;}
+.propertydetail .block { float:left; width:100%; border-bottom:1px solid #d2d2d2; padding:16px 20px 3px;}
+.propertydetail .block:last-child { border-bottom:0px solid #d2d2d2;}
+.propertydetail .block p { color:#656565; font-size:16px;font-family: 'hacen_tunisia_ltregular';}
+.propertydetail .block p.bold { color:#2c2c2c;}
+.propertydetail .submit { margin-top:8px; margin-bottom:12px;}
+.propertydetail h6 { color:#656565; font-size:17px;font-family: 'primeregular'; padding:0 0 16px 0; margin:0 0 0 0;}
+.banner { float:left; width:100%; margin-bottom:16px;}
+.bannerInner { float:left; width:100%; height:auto; margin-bottom:10px;}
+.bannerInner img { float:left; width:100%; height:auto; border-radius:3px 3px 3px 3px;}
+#bx-pager { float:left; width:100%;}
+#bx-pager li { float:left; margin:0 10px 0 0;}
+#bx-pager li img { border-radius:3px 3px 3px 3px;}
+.deatils { float:left; width:100%; border-bottom:1px solid #c4c4c4; padding-bottom:19px; margin-bottom:37px;}
+.deatils label { float:left; width:100%; color:#21559b; font-size:16px; padding:0 0 5px 0;font-family: 'primeregular';}
+.deatils .selectBox { border:1px solid #d2d2d2;}
+.deatils .left { float:left;  width:48%;}
+.deatils .right { float:right;  width:48%;}
+.deatils input { float:left; width:100%;border:1px solid #d2d2d2; padding:7px 10px 6px; border-radius:3px 3px 3px 3px;}
+.paddingbot15 { padding-bottom:15px;}
+.deatils .stext { color:#7d7d7d; padding-top:2px;}
+.left select ,  .right select { padding:0 2px;}
+ .slidebox .left .selectBox select , .slidebox .right .selectBox select  { padding:2px; margin:0px 0 2px 0;}
+.buttonOuter { float:left; width:100%;}
+.buttonOuter a.readmorenews { float:right; padding:9px 46px 8px ; text-transform:uppercase; }
+.userThumb img{ float:left;  border-radius:5px;}
+.userInfo h4{ font-size:20px; font-family: 'primeregular'; float:left; text-transform:capitalize; color:#2c2c2c;}
+.userInfo{ float:left; width:100%;border-bottom:1px solid #c4c4c4; padding-bottom:10px; margin-top:6px;}
+ul.contactInfo{ float:left; width:100%; margin-top:13px;}
+ul.contactInfo li i{ height:30px; width:30px; border-radius:50%; background:#ef9552; color:#FFF; text-align:center; line-height:28px; margin-right:3px; font-size:16px;}
+ul.contactInfo li{ margin-bottom:10px; font-size:16px; color:#151515;   font-family: 'hacen_tunisia_ltregular';}
+ul.contactInfo li a{font-size:16px; color:#151515;   font-family: 'hacen_tunisia_ltregular';}
+ul.contactInfo li a:hover{ text-decoration:underline;}
+.userTable table{ width:100%;}
+.userTable{ float:left; width:100%; border:1px solid #d2d2d2; background:#FFF; padding:26px 30px; border-radius:5px; margin-top:30px; margin-bottom:60px;}
+.userTable table tr td.grey{ font-size:16px; color:#656565; font-family: 'primeregular';}
+.userTable table tr td.blue{ font-size:16px; color:#21559b; font-family: 'primeregular';}
+.userTable table tr td{ padding-bottom:20px; }
+.userTable table tr:last-child td{ padding-bottom:0;}
+ul.orange{ border:1px solid #d47834;}
+ul.orange li a{ background:#ef9552; font-size:19px; font-family: 'hacen_tunisia_ltregular'; padding:14px 20px 10px;}
+ul.orange li { border-bottom:1px solid #d47834;}
+ul.orange li a:hover, ul.orange li.active a {background: #d47834;}
+.paymentTable{ float:left; width:100%;  border:2px solid #d2d2d2; border-radius:5px; background:#FFF;}
+.paymentTable tr th{ background:#e8e8e8;padding:14px 30px; font-size:16px;font-family: 'primeregular'; color:#2c2c2c; font-weight:400;}
+.paymentTable tr{ background: #f6f6f6; border-top:1px solid #d2d2d2;font-family: 'hacen_tunisia_ltregular'; font-size:16px; color:#656565;}
+.paymentTable tr:first-child{ border-top:none;}
+tr:nth-child(odd) {background:#FFF;}
+.green{ color:#629b12;}
+.paymentTable tr td{padding:9px 28px 8px;}
+
+.paymentTable table { float:left; width:100%;}
+.outerTable { float:left; width:100%; margin-bottom:60px;}
+p.slide  { display:none;}
+.uploadTable tr td{ font-size:18px;font-family: 'hacen_tunisia_ltregular'; color:#2c2c2c; padding: 14px 15px 11px; line-height:23px;}
+.uploadTable tr td i{ font-size:23px; margin-right:25px;}
+.red{ color:#e91d1d;}
+.orange{ color:#ef9c18;}
+.green{ color:#3cb033;}
+.blue{ color:#1894eb;}
+.selectBox.border{ border:1px solid #d2d2d2; margin-bottom:19px; padding:3px;}
+.uploadTable tr td{ font-size:18px;font-family: 'hacen_tunisia_ltregular'; color:#2c2c2c; vertical-align:middle;}
+.uploadTable tr td i{ font-size:23px; margin-right:15px;}
+.red{ color:#e91d1d;}
+.orange{ color:#ef9c18;}
+.green{ color:#3cb033;}
+.paymentTable tr td.green{ color:#629b12 !important;}
+.blue{ color:#1894eb;}
+.uploadTable tr td {padding: 15px 18px 15px;}
+.outerTable.margin { margin:0 0 0 0;}
+.searchdetail {background: #fff;border: 1px solid #d2d2d2;border-radius: 5px;float: left;padding:;width: 100%;}
+.searchdetail .block {border-bottom: 1px solid #d2d2d2;margin-top: 0;padding:15px; float:left; width:100%;}
+.searchdetail .block:last-child { border:0px solid #000;}
+.searchdetail .block .threeCol { float:left; width:100%; margin:0 0 0 0; display:flex; text-align:left;}
+/*
+.col01 { float:left; width:100px;margin-right:30px;}
+.col02 { float:left; width:57%; margin-right:30px;}
+.col03 { float:left; width:100%; max-width:130px}
+*/
+
+.col01 { float:left; width:160px;margin-right:30px;}
+.col02 { float:left; width:72%;}
+
+
+.thumb { float:left; width:100%; height:auto;}
+.thumb img { float:left; width:100% ; height:auto;}
+p.heading { color:#444444; font-size:18px;font-family: 'hacen_tunisia_ltregular'; padding:0 0 0 0;}
+p.location { color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular';padding:0 0 0 0;}
+p.price { color:#629b12; font-size:20px;font-family: 'hacen_tunisia_ltregular';padding:5px 0 7px 0;}
+.rating { float:left; width:100%; margin:5px 0px;}
+.rating i.fa { float:left;}
+.rating i.fa.grey { color:#aeaeae;}
+.rating i.fa.orange { color:#fd7222;}
+.col02 .socialIcons { float:left; width:100%;}
+.col02 .socialIcons ul { float:left; width:100%;}
+.col02 .socialIcons ul li { float:left; padding:0 13px 0 0; color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular';}
+.col02 .socialIcons ul li:first-child { padding:6px 13px 0 0;}
+.col02 .socialIcons ul li a { color:#21559b; font-size:16px;}
+.col02 .socialIcons ul li a:hover { color:#98cb4f;}
+
+
+.socialIcons.block { float:left; width:100%; padding:0 0 0 0; border:0px solid #000;}
+.socialIcons.block ul { float:left; width:100%;}
+.socialIcons.block ul li { float:left; padding:0 13px 0 0; color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular';}
+.socialIcons.block ul li:first-child { padding:6px 13px 0 0;}
+.socialIcons.block ul li a { color:#21559b; font-size:16px;}
+.socialIcons.block ul li a:hover { color:#98cb4f;}
+.socialIcons.block ul li i.fa { font-size:14px;}
+
+
+.fav { float:left; width:100%; padding:8px 0 0 0}
+.fav .heart { float:left; position:inherit; top:0; right:0; width:30px;}
+.fav ul { float:left; width:100%;}
+.fav ul li { float:left; padding:0 50px 10px 0;}
+.fav ul li a { color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular';}
+.fav ul li:last-child .heart { padding-left:2px;}
+.fav ul li:hover a { text-decoration:underline;}
+.fav ul li:first-child a { text-decoration:underline;}
+.fav ul li:first-child:hover a { text-decoration:none;}
+.thumb span { float:left; width:100%; color:#656565; padding-top:6px; font-size:12px;font-family: 'hacen_tunisia_ltregular';}
+
+
+
+.searchdetail.propertyListing { margin-bottom:9px;}
+.searchdetail.propertyListing.last { margin-bottom:0px;}
+.searchListing{ float:left; width:100%; background:url(../images/map01.jpg) no-repeat left top; background-size:cover;}
+.searchBlock {float: right;width: 360px;-webkit-box-shadow: -12px 0px 13px -11px rgba(0,0,0,0.3);-moz-box-shadow: -12px 0px 13px -11px rgba(0,0,0,0.3);box-shadow: -12px 0px 13px -11px rgba(0,0,0,0.3);}
+.searchBox{ float:left; width:100%; background:#ffb655; padding:20px; }
+.searchBox h4 {color: #294c7c;float: left;font-family: "primeregular";font-size: 18px;line-height: 16px;padding-bottom: 8px;    text-transform: capitalize;width: 100%;}
+.searchBox input{ background:#FFF; border-radius:5px; padding:0 12px; height:40px;width:84.5%;}
+.searchBox a.serachBtn { background: #294c7c;border-radius: 5px;float: right;height: 40px; margin-left: 9px;padding: 12px 0;    text-align: center;width: 12.4%;}
+.searchBox a.serachBtn i{ color:#FFF; }
+.searchBox a.serachBtn:hover {background: #98cb4f;}
+.searchColm{ float:left; width:100%; overflow-y: scroll; height:529px; background:#FFF; border-bottom:1px solid #dfdfdf;}
+.searchColm a{ padding:10px 20px; float:left; width:100%; border-bottom:1px solid #e5e5e5;}
+.searchColm h4.media-heading {color: #2c2c2c;font-family: "primeregular";font-size: 16px;line-height: 22px;margin-bottom: 2px;    text-transform: capitalize; padding-bottom:0px;}
+.searchColm p{font-size:16px;font-family: 'hacen_saudi_arabiaregular'; padding-bottom:0; color:#629b12; }
+.searchColm small{ width:100%; float:left; font-size:12px; color:#294c7c;font-family: 'hacen_saudi_arabiaregular';}
+.grey{ color:#858585 !important;}
+.searchColm a:hover{ background:#f0f0f0;}
+.searchBlock .pagination{ text-align:center; width:100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dedede+0,f0f0f0+100 */
+background: #dedede; /* Old browsers */
+background: -moz-linear-gradient(top, #dedede 0%, #f0f0f0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #dedede 0%,#f0f0f0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #dedede 0%,#f0f0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */ margin:0; padding:12px 0;}
+.searchBlock ul.pagination li{ display:inline-block;}
+.searchBlock .pagination > li > a, .searchBlock .pagination > li > span{ margin-right:2px;}
+.yellowBlock.paddingBottom{ padding-bottom:30px;}
+.content.noTopPadding{ padding-top:0;}
+
+
+
+
+.tooltipmap { float:left; width:250px; background:#ffffff; padding:10px; border-radius:3px 3px 3px 3px;-webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2); position:relative; top:317px; left:65px;}
+.toolImg { float:left; width:100%; position:relative; margin-bottom:8px;}
+.toolImg img { float:left; width:100%; height:auto;}
+.toolImg span { position:absolute; left:10px; bottom:10px; color:#ffffff; font-size:16px;font-family: "primeregular";}
+.tooltext { float:left; width:100%; color:#2c2c2c; font-size:18px;font-family: 'hacen_tunisia_ltregular'; line-height:19px;}
+.tooltext span { float:left; width:100%; color:#656565; font-size:14px;font-family: 'hacen_tunisia_ltregular'; line-height:14px;}
+.toolarrow { position:absolute; left:50%; bottom:-18px; margin-left:-13px;}
+
+
+#mainContent { float:left; width:100%; background:url(../images/contentbg.png) no-repeat center bottom #f5f5f5; background-size:100% auto; }
+.ratings { float:left; width:100%; padding-bottom:8px;}
+.ratings i.fa { float:left; font-size:14px; color:#fd7222;}
+.ratings i.fa.grey { color:#aeaeae;}
+
+.filters { float:right;}
+.filters label { float:left; padding:4px 7px 0 0; margin: 0 0 0 0; color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular'; }
+.filters ul { float:left; background:#e6e6e6; border:1px solid #cfcfcf; border-radius:2px 2px 2px 2px ;}
+.filters ul li { float:left; border-right:1px solid #cfcfcf;}
+.filters ul li:last-child { border:0px solid #000;}
+.filters ul li a  { float:left; padding:3px 6px; color:#959595;}
+.filters ul li:hover a , .filters ul li.active a  { color:#2b4f80;}
+
+
+
+.maplarge { float:left; width:100%;margin-bottom:20px;}
+.maplarge img { float:left; width:100%; height:auto; border-radius:3px 3px 3px 3px;}
+
+.second .searchdetail.propertyListing { margin-bottom:20px;}
+.second .socialIcons { float:left; width:100%;}
+.second .socialIcons ul { float:left; width:100%;}
+.second .socialIcons ul li { float:left; padding:0 13px 0 0; color:#656565; font-size:12px;font-family: 'hacen_tunisia_ltregular';}
+.second .socialIcons ul li:first-child { padding:6px 13px 0 0;}
+.second .socialIcons ul li a { color:#21559b; font-size:16px;}
+.second .socialIcons ul li a:hover { color:#98cb4f;}
+.second .fav ul li { padding-right:30px;}
+span.price { color:#629b12; font-size:20px;font-family: 'hacen_tunisia_ltregular';float:right;}
+
+.tbar { float:left; width:100%; padding-top:6px;}
+.tbar span.heading { float:left;color: #444444;font-family: "hacen_tunisia_ltregular";font-size: 18px;padding: 0;}
+.second .thumb { width:100%;}
+
+.deatils.listingpage { float:left; width:100%; border-bottom:0px solid #000; padding:0 0 0 0; margin:0 0 0 0;}
+
+
+
+
+
+.editProfile{float:left; width:100%; border:1px solid #d2d2d2; border-radius:5px; background:#FFF;}
+.personal{ float:left; width:100%; padding:20px;}
+.editProfile .buttonOuter a.readmorenews{ float:left;}
+.editProfile .form-group input{ border:none; padding:0;}
+.editProfile label{ font-size:16px; font-family: 'hacen_tunisia_ltregular'; color:#2c2c2c; font-weight:400;}
+.property{ border-top:1px solid #d2d2d2; padding:0 0 20px; margin-bottom:20px; padding:20px; float:left; width:100%;
+}
+.editProfile .selectBox { height:36px; background:#f5f5f5;}
+.editProfile .selectBox select { padding:3px 3px 2px ; background:none;}
+
+.editprofile{padding:9px 46px 8px;}
+.linksTable tr{background:#ffffff !important;}
+a.linkColor{color:#2c2c2c !important;}
+a.linkColor:focus{text-decoration:none;}
+
+
+/**********************/
+.threeBox { float:left; width:100%; border-top:1px solid #e5e5e5; padding:30px 0 0 0; margin: 20px 0 0 0;}
+.col { background:#edf4f7; float:left; width:100%; border:1px solid #66a4e4; text-align:center;}
+.tophead { float:left; width:100%; padding:24px 10px; font-size:15px; color:#242424;font-family: 'primeregular';text-transform:uppercase;}
+.price01 { float:left; width:100%; font-size:22px; color:#ffffff; background:#54b4e6 ;font-family: 'primeregular';padding:9px 10px;}
+.phead { float:left; width:100%; border-bottom:1px solid #d5dbde; font-size:15px; color:#242424;font-family: 'primeregular';padding-bottom:15px; margin-bottom:15px;}
+.boxInfo { float:left; width:100%; padding:14px 19px 24px;}
+.centerButton { float:left; width:100%; text-align:center;}
+.centerButton a { float:none; display:inline-block;}
+.centerButton .desbttn a { font-size:14px;} 
+.newgreen {background: #55b16f; border: 1px solid #55b16f;}
+.newgreen .tophead { color:#fff;}
+.newgreen .price01 {background: #ffffff;color: #55b16f;}
+.newgreen .tophead, .newgreen .phead, .newgreen p {color: #ffffff;}
+.newgreen .phead {border-bottom: 1px solid #4c9f64;}
+.centerButton .desbttn:hover { color:#fff;}
+
+
+.radio.fullblokced { float:left; width:100%; margin:0 0 0 0;}
+.radio.fullblokced  input[type="radio"] { float:left; width:auto;}
+.searchTwo .selectBox  { margin-bottom:10px;}
+
+
+.addProperty { float:left; width:100%;}
+.addProperty .radio input[type="radio"] { width:auto;}
+.addProperty .radio { margin-bottom:10px;}
+
+.addProperty  input[type="checkbox"] { margin:0 10px 5px 0; width:13px; float:left; height:13px; position:inherit;}
+.addProperty  span { font-size:13px; float:left;}
+
+.addProperty .checkbox { float:left; width:100%; margin:0 0 0 0; padding:0 0 0 0;}
+.textsetting span.right { text-align:right; float:right;}
+
+
+ul.footerListing li a.active {text-decoration:underline;}
+
+ul.footerMenu li.active a {text-decoration:underline;}
+
+a.notRegister {color:#337ab7 !important;}
+
+
+
+
+ul.footerMenu { float:right;}
+ul.footerMenu li { float:left; margin:0 0 0 0px; }
+ul.footerMenu li span {  color:#ffffff; font-size:14px; line-height:normal; padding:0 10px;}
+ul.footerMenu li a { font-size:12px; color:#ffffff;}
+ul.footerMenu li a:hover , ul.footerMenu li.active a { text-decoration:underline;}
+ 
+.testimonailsAdd{float:left;padding-bottom:25px}
+
+
+.ksaOuter{ float:left; width:100%;padding: 60px 0; background:#fff;}
+.ksaOuter h3{
+	text-align:center;
+	text-transform:capitalize;
+	margin-bottom: 34px;
+}
+.saleBlock {
+  border: 1px solid #e5e5e5;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 33px 20px 16px 27px;
+}
+.saleBlock.saleMargin{
+	margin:0;
+}
+.saleIcon {
+  float: left;
+  padding-right: 30px;
+  padding-top:6px;
+}
+
+.saleText h1{
+	color:#21559b;
+}
+.saleText span{
+	color:#ef9552;
+	font-size:20px;font-family: 'hacen_saudi_arabiaregular';
+}

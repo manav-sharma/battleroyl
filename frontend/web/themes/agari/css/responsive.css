@@ -1,0 +1,224 @@
+@media screen and (max-width:1300px) {
+	
+}
+
+@media screen and (max-width:1200px){
+	.smallThumb { margin-bottom:22px;}
+	.categoreis .centeredText { margin-left:0%; margin-right:0%; width:100%;}
+	.imagesBlock { float:left; width:100%; margin:0 0%;}
+	.add { min-height:250px;}
+	.selectBox i.fa { margin-left:0px;}
+	.logo { margin:0 30px 0 0; max-width:185px;}
+	.addBlock { width:77%;}
+	.navbar-default .navbar-nav > li > span { padding:0 13px;}
+	.sthumb { max-width:450px;}
+	h1 { font-size:30px;}
+	h2 { font-size:24px;}
+	h3 { font-size:20px;}
+	h4 { font-size:16px;}
+	ul.serviceListing li a { font-size:16px;}
+	#bx-pager li { width:17%;}
+	.topMenu ul li { margin-right:5px; padding:11px 8px 11px 0;}
+	a.login { padding:3px 4px 2px; margin:8px 3px 0 0;}
+	a.register { padding:4px 3px 2px; margin:8px 0 0;}
+	.language { padding:8px 7px 7px 0;}
+	.saleText span {
+  font-size: 17px;
+}
+.saleBlock {
+  padding: 33px 20px 16px 23px;
+}
+.saleIcon {
+  padding-right: 14px;
+}
+
+
+}
+
+@media screen and (max-width:992px){
+	.thead span , .centeredText span { font-size:22px;}
+	.thead , .centeredText { background-position:left 15px;}
+	.smallThumb { margin-bottom:18px;}
+	.add { min-height:198px;}
+	.text h6 { font-size:16px;}
+	.text p { font-size:14px; line-height:14px;}
+	.bannerText h1 { font-size:26px;}
+	.selectBox { margin-bottom:10px;}
+	.logo { margin:0 15px 0 0; max-width:160px;}
+	.addBlock { width:75%;}
+	.navbar-default .navbar-nav > li > span { padding:0 3px;}
+	.navbar-default .navbar-nav > li > a { font-size:14px;}
+	.bannerText { left:0px;}
+	.highlight { width:100%;}
+	.sthumb { max-width:inherit; text-align:center; margin:0 0 15px 0;}
+	.sthumb img { float:none; display:inline-block;}
+	.borderbox { padding-bottom:20px; margin-bottom:20px;}
+	.highlight p { font-size:16px; line-height:20px;}
+	.smallImg { margin-bottom:15px;}
+	.career .media-left { width:75%;}
+	.paymentTable tr td { padding:8px 15px;}
+	.paymentTable tr th { padding:14px 15px;}
+	.fullWidth { padding:0 0 0 0;}
+	.inputText , .textareatext , .captcha { margin-bottom:10px;}
+	
+	
+	
+	.menutop { display:block; position:absolute; right:15px;border:1px solid #000000; border-radius:3px 3px 3px 3px; color:#000000; padding:3px 11px 2px; margin:8px 7px 0 0; text-transform:uppercase;font-family: 'hacen_tunisia_ltregular'; cursor:pointer;} 
+	.menutop:hover , .menutop.active {border:1px solid #ffffff; color:#ffffff;}
+	.sideTopBar {background: #98CB4F;float: left;height: 100%;margin: 0;overflow-x: hidden;overflow-y: scroll;position: fixed;    text-align: left;top: 0;width: 250px; right:-250px;}
+	.topMenu ul li { float:left; width:100%; border-bottom:1px solid #c1e095;  border-right:0px solid #c1e095; padding:10px 15px; margin:0px;}
+	.topMenu ul li a { font-size:14px;}
+	.loginBlock {float: left;width: 100%; text-align:center;}
+	.loginBlock a.login , .loginBlock a.register { float:none; display:inline-block;}
+	
+	.rightlinks a { margin:0 0 0 3px; padding:5px 5px 3px;}
+	.navbar-default .navbar-nav > li > a { font-size:13px;}
+	.copyrightBlock p { text-align:center;}
+	ul.footerMenu { float:left; width:100%;text-align:center;}
+	ul.footerMenu li { float:none; display:inline-block;}
+	
+	.saleBlock {
+  padding: 26px 6px 16px;
+}
+.saleIcon {
+  padding-right: 4px;
+  padding-top:6px;
+}
+.saleText h1 {
+	font-size:26px;
+}
+.saleText span {
+  font-size: 14px;
+}
+	.saleIcon img{
+		width:80%;
+	}
+	
+}
+@media screen and (max-width:840px){
+	.bannerText { max-width:inherit; width:100%; bottom:40px;}
+	
+	}
+@media screen and (max-width:767px){
+	.topBorder { margin-bottom:15px;}
+	.largeThumb { margin-bottom:30px;}
+	.smallThumb { margin-bottom:30px;}
+	.largeThumb:hover , .smallThumb:hover {-webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);}
+	.add { min-height:inherit; margin:30px 0 0;}
+	.add.last { margin:30px 0 0;}
+	.bannerText { position:inherit; bottom:0; float:left; margin:30px 0 0 0;}
+	.logo { margin:0 0px 15px 0; max-width:inherit; text-align:center;}
+	.logo img { float:none; display:inline-block; width:auto; max-width:100%;}
+	.addBlock { width:100%;}
+	.rightlinks a { padding:5px 5px 3px;}
+	.socialIcons ul li span { margin:0 5px;}
+	p.menu { float:left; color:#F99A00; font-size:16px;font-family: 'primeregular';  padding:13px 0 0 0px; line-height:normal; display:block; }
+	.navbar-default .navbar-toggle { border-color:#F99A00;}
+	.navbar-default .navbar-toggle .icon-bar { background-color:#F99A00;}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#98CB4F;}
+	.nav > li { float:left; width:100%; margin-bottom:10px;}
+	.nav > li span { display:none;}
+	.navbar-nav { margin:10px 0px;}
+	.navbar-default .navbar-nav > li > a { font-size:16px; width:100%;}
+	.navbar-toggle { margin-right:0;} 
+	.topMenu ul li { margin-right:5px; padding-right:5px;}
+	
+	
+	.contAdd { margin-bottom:20px;}
+	.userThumb { margin-bottom:15px; float:left;}
+	.radio + .radio { margin-bottom:5px;}
+	.radio { margin-bottom:5px; width:25%;}
+	.filters { float:left; width:100%; margin-bottom:15px;}
+	.content { padding:30px 0px}
+	.col {margin-bottom: 30px;} 
+	.textsetting span.right { text-align:left; float:left; width:100%;}
+	.rightlinks.innersmallMenu , .socialIcons { float:left; width:100%; text-align:center;}
+	.rightlinks.innersmallMenu a { float:none; display:inline-block;}
+	.socialIcons ul li { float:none; display:inline-block;}
+	.socialIcons ul { margin-bottom:15px;}
+	.socialIcons ul li span {float: left;line-height: 28px;margin: 0 5px;}
+	.saleBlock.saleMargin {
+  margin-bottom: 30px;
+}
+.saleBlock {
+  padding: 33px 12px 16px 19px;
+}
+
+.saleIcon {
+  padding-right: 25px;
+}
+
+.saleText h1{
+	font-size:26px;
+}
+.saleText span{
+	font-size:14px;
+}
+.saleIcon img{
+		width:100%;
+	}
+
+	 
+
+}
+
+@media screen and (max-width:640px){
+	.fullBlock { width:100%;}
+	.threeCol { margin-bottom:0px; text-align:center;}
+	.listingImg a { margin-bottom:15px; float:none; display:inline-block;}
+	.listingImg a img { float:none;}
+	.heart {bottom: 0;left: 0;margin: 0;position: absolute;right: 0;top: 30px;}
+	.bannerText h1 { font-size:20px;}
+	.outerTable { float:left; width:100%;}
+	.paymentTable { overflow:scroll;}
+	.paymentTable table { width:700px;}
+	p.slide { display:block; font-size:14px; padding:5px 0 0 0; float:left; width:100%;font-family: 'primeregular';}
+	.catBlock { margin-bottom:30px;}
+	.listingImg a { width:auto;}
+	.ratings { text-align:center;}
+	.ratings i.fa { float:none; display:inline-block;}
+	.imagesBlock .threeCol { text-align:center;}
+	.catBlock { float:none; display:inline-block; width:auto; max-width:100%;}
+	.catDesc  { text-align:left;}
+	
+}
+@media screen and (max-width:580px){
+	.widthBlock{
+		width:100%;
+		
+	}
+	.saleBlock{
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:480px){
+	.full { width:100%;}
+	.smallThumb.last { margin-bottom:30px;}
+	.rightlinks { float:left; width:100%; text-align:center;}
+	.rightlinks a { margin:10px 10px 0 0; float:none; display:inline-block;}
+	.socialIcons ul li {display: inline-flex;float: none;}
+	.socialIcons ul { text-align:center;}
+	.box { margin-bottom:15px;}
+	.testimonial .media-left { width:100%; padding:0 0 0 0; text-align:center;}
+	.testimonial .media-left a { float:none; display:inline-block;}
+	.career .media-left { width:100%;}
+	.career .media-body .submit { float:left;} 
+	#bx-pager li { width:16%;}
+	.userInfo h4 { width:100%;}
+	.userInfo .rightlinks a { float:left; margin-top:0;}
+	.userTable { padding:20px 15px;}
+	.userTable table tr td.grey , .userTable table tr td.blue { font-size:14px;}
+	.block .threeCol { display:inherit !important;}
+	.col01 { width:100%;}
+	.thumb { width:100px;}
+	.col02 { width:100%; margin:0px;}
+	.col03 { width:100%;}
+	.fav { padding-top:15px;}
+	.radio {width:30%;}
+	
+	.radio.fullblokced span { padding:0 4px; font-size:11px;}
+	
+	
+}
+

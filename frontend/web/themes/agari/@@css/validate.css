@@ -1,0 +1,367 @@
+
+
+.ui.form .ui.input, .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=date], .ui.form input[type=password], .ui.form input[type=number], .ui.form input[type=url], .ui.form input[type=tel], .ui.form textarea {
+    width: 100%}
+.ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=date], .ui.form input[type=password], .ui.form input[type=number], .ui.form input[type=url], .ui.form input[type=tel], .ui.form textarea {
+    margin: 0;
+    padding: .65em 1em;
+    font-size: 1em;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, .15);
+    outline: 0;
+    color: rgba(0, 0, 0, .7);
+    margin:10px 0px;
+    border-radius: .3125em;
+    -webkit-transition: background-color .3s ease-out, -webkit-box-shadow .2s ease, border-color .2s ease;
+    transition: background-color .3s ease-out, box-shadow .2s ease, border-color .2s ease;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .3) inset;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .3) inset;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ui.form textarea, .ui.textarea {
+    line-height: 1.33;
+    min-height: 8em;
+    height: 12em;
+    max-height: 24em;
+    resize: vertical;
+}
+.ui.form input[type=checkbox], .ui.form textarea {
+    vertical-align: top;
+}
+.ui.form .divider {
+    clear: both;
+    margin: 1em 0;
+}
+.ui.form .error.message, .ui.form .info.message, .ui.form .warning.message {
+    display: none;
+}
+.ui.form .message:first-child {
+    margin-top: 0;
+}
+.ui.form .field .prompt.label {
+    white-space: nowrap;
+}
+.ui.form .inline.field .prompt {
+    margin-top: 0;
+    margin-left: 1em;
+}
+.ui.form .inline.field .prompt:before {
+    margin-top: -.3em;
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    left: 0;
+}
+.ui.form input[type=text]:focus, .ui.form input[type=email]:focus, .ui.form input[type=date]:focus, .ui.form input[type=password]:focus, .ui.form input[type=number]:focus, .ui.form input[type=url]:focus, .ui.form input[type=tel]:focus, .ui.form textarea:focus {
+    color: rgba(0, 0, 0, .85);
+    border-color: rgba(0, 0, 0, .2);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-appearance: none;
+    -webkit-box-shadow: .3em 0 0 0 rgba(0, 0, 0, .2) inset;
+    box-shadow: .3em 0 0 0 rgba(0, 0, 0, .2) inset;
+}
+.ui.form.error .error.message, .ui.form.warning .warning.message {
+    display: block;
+}
+.ui.form .field.error .input, .ui.form .field.error label, .ui.form .fields.error .field .input, .ui.form .fields.error .field label {
+    color: #D95C5C;
+}
+.ui.form .field.error .corner.label, .ui.form .fields.error .field .corner.label {
+    border-color: #D95C5C;
+    color: #FFF;
+}
+.ui.form .field.error input[type=text], .ui.form .field.error input[type=email], .ui.form .field.error input[type=date], .ui.form .field.error input[type=password], .ui.form .field.error input[type=number], .ui.form .field.error input[type=url], .ui.form .field.error input[type=tel], .ui.form .field.error textarea, .ui.form .fields.error .field input[type=text], .ui.form .fields.error .field input[type=email], .ui.form .fields.error .field input[type=date], .ui.form .fields.error .field input[type=password], .ui.form .fields.error .field input[type=number], .ui.form .fields.error .field input[type=url], .ui.form .fields.error .field input[type=tel], .ui.form .fields.error .field textarea {
+    background-color: snow;
+    border-color: #E7BEBE;
+    border-left: none;
+    color: #D95C5C;
+    padding-left: 1.2em;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-box-shadow: .3em 0 0 0 #D95C5C inset;
+    box-shadow: .3em 0 0 0 #D95C5C inset;
+}
+.ui.form .field.error input[type=text]:focus, .ui.form .field.error input[type=email]:focus, .ui.form .field.error input[type=date]:focus, .ui.form .field.error input[type=password]:focus, .ui.form .field.error input[type=number]:focus, .ui.form .field.error input[type=url]:focus, .ui.form .field.error input[type=tel]:focus, .ui.form .field.error textarea:focus {
+    border-color: #ff5050;
+    color: #ff5050;
+    -webkit-appearance: none;
+    -webkit-box-shadow: .3em 0 0 0 #FF5050 inset;
+    box-shadow: .3em 0 0 0 #FF5050 inset;
+}
+.ui.form .field.error .ui.dropdown, .ui.form .field.error .ui.dropdown .item, .ui.form .fields.error .field .ui.dropdown, .ui.form .fields.error .field .ui.dropdown .item {
+    background-color: snow;
+    color: #D95C5C;
+}
+.ui.form .field.error .ui.dropdown, .ui.form .field.error .ui.dropdown:hover, .ui.form .fields.error .field .ui.dropdown, .ui.form .fields.error .field .ui.dropdown:hover {
+    -webkit-box-shadow: 0 0 0 1px #E7BEBE!important;
+    box-shadow: 0 0 0 1px #E7BEBE!important;
+}
+.ui.form .field.error .ui.dropdown:hover .menu, .ui.form .fields.error .field .ui.dropdown:hover .menu {
+    -webkit-box-shadow: 0 1px 0 1px #E7BEBE;
+    box-shadow: 0 1px 0 1px #E7BEBE;
+}
+.ui.form .field.error .ui.dropdown .menu .item:hover, .ui.form .fields.error .field .ui.dropdown .menu .item:hover {
+    background-color: #FFF2F2;
+}
+.ui.form .field.error .ui.dropdown .menu .active.item, .ui.form .fields.error .field .ui.dropdown .menu .active.item {
+    background-color: #FDCFCF!important;
+}
+.ui.form.loading:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url(/vendor/semantic/images/loader-large.gif) 50% 50% no-repeat rgba(255, 255, 255, .8);
+    visibility: visible;
+}
+@font-face {
+    font-family: 'Basic Icons';
+    src: url(/vendor/semantic/font/basic.icons.eot);
+    src: url(/vendor/semantic/font/basic.icons.eot?#iefix) format('embedded-opentype'), url(/vendor/semantic/font/basic.icons.svg#basic.icons) format('svg'), url(/vendor/semantic/font/basic.icons.woff) format('woff'), url(/vendor/semantic/font/basic.icons.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+
+
+@font-face {
+    font-family: Icons;
+    src: url(/vendor/semantic/font/icons.eot);
+    src: url(/vendor/semantic/font/icons.eot?#iefix) format('embedded-opentype'), url(/vendor/semantic/font/icons.svg#icons) format('svg'), url(fonts/icons.woff) format('woff'), url(fonts/icons.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+i.icon {
+    opacity: .75;
+    margin: 0 .25em 0 0;
+    width: 1.23em;
+    height: 1em;
+    font-style: normal;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+}
+.ui.input input, i.icon {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+i.icon.left {
+    width: auto;
+    margin: 0 .5em 0 0;
+}
+i.icon.right, i.icon.search {
+    width: auto;
+    margin: 0 0 0 .5em;
+}
+
+
+.ui.form label {
+    margin: 0 0 1em;
+    display: block;
+    color: #555;
+    position: relative;
+    float:left;
+}
+.fieldsWrap{float:left; width:40%;}
+div.error, div.error-list, input.error, textarea.error, label.error, select.error {
+    color: #D95C5C!important;
+    border-color: #D95C5C!important;
+}
+div.custom-error, div.custom-error-list, input.custom-error, label.custom-error {
+    color: #F7879E!important;
+    border-color: #F7879E!important;
+}
+form label.checkbox .ui.red.pointing.below.label, form label.radio .ui.red.pointing.below.label {
+    right: inherit;
+    bottom: -5px;
+    margin-bottom: 0;
+}
+form label.checkbox .ui.pointing.below.label, form label.radio .ui.pointing.below.label {
+    margin-top: 0;
+    margin-left: 1em;
+}
+form label.checkbox .ui.pointing.below.label:before, form label.radio .ui.pointing.below.label:before {
+    margin-top: -.3em;
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    left: 0;
+}
+form .ui.checkbox .ui.red.pointing.below.label {
+    right: inherit;
+    left: -55%;
+    bottom: -30px;
+    margin-right: 0;
+}
+.ui.checkbox .ui.pointing.below.label {
+    margin-top: 0;
+    margin-right: 1em;
+}
+.ui.checkbox .ui.pointing.below.label:before {
+    margin-top: -.3em;
+    right: -.3em;
+    top: 50%;
+    bottom: auto;
+    left: auto;
+}
+.ui.form input[disabled], .ui.form input[readonly], .ui.form select[disabled], .ui.form select[readonly], .ui.form textarea[disabled], .ui.form textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #f7f7f7;
+    color: #999;
+}
+.ui.form input[type=radio][disabled], .ui.form input[type=radio][readonly], .ui.form input[type=checkbox][disabled], .ui.form input[type=checkbox][readonly] {
+    background-color: transparent;
+}
+.ui.form  {
+    clear: both;
+    margin: 0 0 1em;
+}
+.ui.form >label {
+    margin: 0 0 .3em;
+    display: block;
+    font-size: .875em;
+}
+.card-list li,  .icon,  .icon.attention:hover ul {
+    display: inline-block;
+}
+.ui.form .error label {
+    color: #D95C5C!important;
+}
+ .controls {
+    position: relative;
+    float:left;
+    width:100%;
+}
+ .icon {
+    margin: 0 .25em 0 0;
+    width: 1.23em;
+    height: 1em;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    right: 20px;
+    top: 43px;
+    z-index: 20;
+    color: #333;
+}
+ .icon.attention:before {
+color: rgb(217, 92, 92);
+    content: "\f06a"}
+ .icon.attention ul {
+    display: none;
+    position: absolute;
+    bottom: 12px;
+    width: 185px;
+    right: 0px;
+    z-index: 11;
+    padding: .5em .8em;
+    border-radius: .325em;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background .1s linear;
+    transition: background .1s linear;
+    margin-top: 0;
+    margin-bottom: 1em;
+    background-color: #D95C5C!important;
+    border-color: #D95C5C!important;
+    color: #FFF!important;
+    font-family: 'Open Sans', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+ .icon.attention ul, .ui.form select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ .icon.attention ul:before {
+    margin-left: -.3em;
+    top: auto;
+    right: auto;
+    bottom: -.3em;
+    right: 3%;
+    position: absolute;
+    content: "";
+    width: .6em;
+    height: .6em;
+    background-image: none;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 2;
+    -webkit-transition: background .1s linear;
+    transition: background .1s linear;
+    background-color: #D95C5C!important;
+}
+.error input, .error select {
+    border-color: rgba(0, 0, 0, .2)!important;
+}
+
+.ui.form select {
+    width: 100%;
+    margin: 10px 0px; 
+    padding: .65em 1em;
+    font-size: 1em;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, .15);
+    outline: 0;
+    color: rgba(0, 0, 0, .7);
+    border-radius: .3125em;
+    -webkit-transition: background-color .3s ease-out, -webkit-box-shadow .2s ease, border-color .2s ease;
+    transition: background-color .3s ease-out, box-shadow .2s ease, border-color .2s ease;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .3) inset;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .3) inset;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fullwidth { float:left; width:100%; }
+.block { display:block; clear:both; }
+.halfwidth { float:left; width:46%; }
+.halfwidth.right { float:right; }
+
+.chkbox .icon{top:2px;}
+
+.select2-container--default .select2-selection--single { border:none!important; }
+.select2-container--default .select2-selection--single .select2-selection__arrow { display:none; }
+.select2-dropdown { width:93%!important;} 
+
+
+
+@media (max-width: 1024px) {
+.container{width:100% !important;margin:0 auto}
+
+}
+
+@media (max-width: 768px) {
+.fullwidth { float:left; width:100%; }
+.block { display:block; clear:both; }
+.halfwidth { float:left; width:100%; }
+
+
+}

@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width:1200px) {
+	.title {font-size: 50px;line-height: 50px;}
+	.title span {font-size: 30px;line-height: 40px;}
+	.socialIcons {margin: 20px 0 35px;}
+	.logo {margin-bottom: 40px;}
+	.choose-city-inner > ul { top:58px;}
+}
+ @media screen and (max-width:1199px) {
+	.content-video-inner a {font-size: 17px;}
+	.about h2 {font-size: 46px;line-height: 50px;}
+	.choose-city h2 {font-size: 46px;line-height: 50px;}
+	.choose-city-inner p {font-size: 20px;line-height: 25px;padding: 20px 0;}
+	.choose-city-inner {padding: 0;}
+	.sidebar h3 {font-size: 20px;}
+	.footer-nav ul li {padding: 10px 14px 0 0;}
+	.footer-nav ul li a {font-size: 13px;line-height: 18px;}
+	
+	.list01 li a {font-size: 13px;}
+	.navbar-right {margin: 18px -15px 0 0;}
+	.navbar-nav > li > a {padding: 33px 0 22px;}
+	h3 {font-size: 31px;}
+	.social {margin-top: 96px;}
+	.formOuter form label {font-size: 13px;}
+	.topDropdown {margin-top: 15px;max-width: 90%;}
+	.topDropdown .dropdown {float: left;margin-top: 7px;}
+	.ragisterButton {margin-top: 23px;}
+	.ragisterButton a {font-size: 14px;padding: 11px 15px;}
+	.formOuter {padding: 47px 30px 11px;}
+	.whiteDetail {width: 84%;}
+	.dropdown-menu {margin-top: 7px;}
+	.panel-title {font-size: 15px;}
+	.innerBanner h1 { font-size:40px;}
+	.contestantText { font-size:16px;}
+	.contestantThumb > span { font-size:23px; height:50px;width:50px; line-height:50px;}
+	#accordion p { font-size:14px;}
+	.outerBlk { padding-bottom:30px;}
+}
+ @media screen and (max-width:991px) {
+
+	.social-nav {float: left;margin: 15px 0 0;}
+	.social-nav ul li {margin: 0 7px 0 0;}
+	.content-video-inner a {font-size: 13px;line-height: 18px;padding: 16px 0 15px 5px;}
+	.about h2 {font-size: 40px;line-height: 50px;}
+	.choose-city h2 {font-size: 40px;line-height: 50px;}
+	.choose-city-inner p {font-size: 16px;line-height: 20px;padding:18px 0px;}
+	.choose-city-inner {}
+	.sidebar h3 {font-size: 19px;}
+	.videoText span {font-size: 16px;}
+	.navbar-nav > li {padding: 0 9px;}
+	.navbar-nav > li > a {padding: 20px 0 15px;}
+	.nav.navbar-nav.navbar-right a {font-size: 13px;padding: 9px 12px 4px 13px;}
+	.navbar-nav > li:first-child {padding: 0 12px 0 0;}
+	.navbar-right {margin: 11px -15px 0 0;}
+	.bannerText {top: 64%;}
+	h1 {font-size: 30px;}
+	h2 {font-size: 45px; line-height:normal;}
+	.hightedBox {width: 56%;}
+	h3 {font-size: 23px;}
+	.social {margin-top: 76px;}
+	.formOuter form label {font-size: 13px;}
+	.cleintimg img {max-width: 80%;}
+	.navbar-default .navbar-nav > li > a {font-size: 14px;}
+	.ragisterButton {margin-top: 11px;}
+	.btn.btnTransparent {font-size: 12px;}
+	.topDropdown .dropdown {margin-top: 0;}
+	.footer-contact {margin: 36px 0 12px;}
+	.footer-nav-main {padding: 11px 0 12px;}
+	.footer-bottom p {margin: 17px 0 0;}
+	.formOuter {padding: 47px 30px 30px;}
+	.whiteDetail {width: 78%;}
+	.contestantThumb > span {bottom: -24px;	font-size: 21px;height: 52px;line-height: 52px;width: 52px;}
+	.selectBox {padding: 5px 5px;width: 35%; margin-top:0px;}
+	.contestantText {font-size: 16px;}
+	.topDropdown {margin-top: 6px;max-width: 100%;}
+	.redText span {font-size: 50px;}
+
+	.glyphicon.glyphicon-plus {font-size: 13px;height: 50px;line-height: 50px;width: 50px;margin-right: 16px;}
+	.glyphicon.glyphicon-minus {height: 50px;line-height: 50px;width: 50px;font-size: 13px;margin-right: 16px;}
+	.backBlk .button a {padding: 11px 13px;}
+	.outerBlk span {font-size: 14px;}
+	.btn.btnTransparent { padding:6px 0px;}
+	.innerBanner { padding:100px 0 40px;}
+	.contentArea { padding:40px 0px;}
+	#colorBg::before , #colorBg::after { background-size:70%;}
+	#blackOuter::after { display:none;}
+	.formOuter form .form-control { height:40px; width:60%;}
+	.addressBlk ul li { font-size:16px; padding-bottom:20px;}
+	.formOuter form label { width:40%;}
+	form .button , .capcha { margin-left:40%;}
+	form .button a { padding:8px 14px;}
+	.winnerBox::before { width:100px; height:100px; background-size:67%;}
+	#accordion .panel-body { padding-left:66px; max-width:100%;}
+	.profilOeuter  form label { width:35%;}
+	.profilOeuter form .form-control { width:65%;}
+	.choose-city-inner a { font-size:13px; padding:8px 0px;}
+	.choose-city-inner > ul {top: 47px;}
+}
+ @media screen and (max-width:767px) {
+	.footer-right {margin: 50px 0 0;}
+	.choose-city img {display: none;}
+	.footer-bg {display: none;}
+	.yellow-bg {display: none;}
+	.red-bg {display: none;}
+	.sidebar {margin: 40px 0 0 0;}
+	.content-video-row {float: none;}
+	.footer-nav {width: 100%;}
+	.social-nav {float: left;margin: 15px 0 0;}
+	.social-nav ul li {margin: 0 7px 0 0;}
+	.content-video-inner img {width: 100%;}
+	.choose-city-inner {margin: 15px 0 0 0;}
+	.choose-city-top {margin: 0;}
+	.navbar-nav > li {width: 100%;padding: 0 0 0 0px;}
+	.navbar-nav > li:first-child {padding: 0 0 0 0px;}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {background-color: #ff0000;border-bottom: none;color: #FFF;}
+	.navbar-default .navbar-nav > li > a {padding: 10px 16px 10px;border-bottom: 1px solid #ddd;background: #000;color: #FFF;}
+	.navbar-default .navbar-nav > li > a:hover {background: #ff0000;color: #FFF;}
+	.navbar-right {background: #000000;float: left;margin: 5px 15px 15px 0;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {background: #000000;border-color: #000000;}
+	.choose-city-inner > ul {padding: 0;top: 40px;width: 100%;}
+	.choose-city-inner li {margin: 0;width: 100%;}
+	.stdThumb {text-align: center;width: 100%;margin:0 0 15px 0 ;}
+	.stdThumb img {display: inline-block;}
+	header {background:none;}
+	.bannerText {top: 43%;}
+	.hightedBox {width: 100%;}
+	p {font-size: 14px;}
+	.detail > span {font-size: 16px;}
+	.list01 > ul {margin-top: 10px;}
+	h2 {font-size: 30px;letter-spacing: normal;}
+	.highlight {font-size: 16px;}
+	h1 {font-size: 20px;}
+	.contentArea {padding: 40px 0;}
+	.addressBlk {background-size: cover;text-align: center;}
+	.rightPadding {padding: 0 15px;}
+	.leftPadding {padding: 0 15px;}
+	.social li {display: inline-block;float: none;}
+	.profileThumb {text-align: center;}
+	.profileThumb img {border-radius: 5px;display: inline-block;}
+	.leftNav > ul {text-align: center;margin-bottom: 20px;}
+	.postText > span {font-size: 15px;}
+	.ragisterButton {margin-top: 6px;position: absolute;z-index: 1;}
+	header {min-height: auto;}
+	.topDropdown {margin-top: 0;position: absolute;z-index: 1;}
+	.topDropdown .dropdown {display: inline;margin-top: 0;}
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a {border: none;}
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {border-bottom: 0px solid rgb(221, 221, 221);}
+	.navbar-nav > li {border-bottom: 1px solid rgb(255, 255, 255);}
+	#blackOuter::after {display: none;}
+	.topDropdown {max-width: 25%;}
+	.footer-bottom p {padding-bottom: 10px;}
+	.archiveThumb {text-align: center;}
+	.archiveThumb img {display: inline-block;}
+	.dropdown-menu {left: -54px !important;margin-left: 0;margin-top: 13px;}
+	.leftThumb {float: left;margin-right: 30px;width: 45%;}
+	.rightThumb {float: left;width: 45%;}
+	.detailThumb {text-align: center;margin-bottom: 10px;}
+	.detailThumb img {display: inline-block;}
+	.imageBlk {margin-bottom: 20px;}
+	.imageBlk img {width: 100%;}
+	.Icons {display: inline-block;float: none;text-align: center;margin-top: 10px;}
+	.detailText > span {width: 100%;}
+	.detailText {text-align: center;}
+	.Icons > li {display: inline-block;float: none;}
+	.navbar-nav { margin:0px;}
+	.navbar-default .navbar-toggle .icon-bar { background-color:#fff;}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#f80e1c;}
+	.logo-all { margin-top:50px;}
+	.watch-main { margin-bottom:0px;}
+	.choose-city { padding:40px 0;}
+	.choose-city-inner p { padding:15px 0px;}
+	.content-main { padding:40px 0px;}
+	.about h2 {font-size: 36px;line-height: 44px;}
+	.choose-city h2 {font-size: 36px;line-height: 44px;}
+	.hightedBox { margin-top:20px;}
+	#colorBg::before, #colorBg::after , .footer-2::before { display:none;}
+	.addressBlk ul li br { display:none;}
+	.addressBlk ul li { padding-bottom:10px;}
+	.social { margin-top:20px;}
+	.addressBlk ul li { padding-bottom:0px;}
+	.addressBlk { padding:25px; border-radius:0px;}
+	.formOuter { padding:25px;}
+	form { margin:15px 0 0 0;}
+	.formOuter form label { padding:0px;}
+	.innerBanner h1 { font-size:32px;}
+	.postText { margin-bottom:15px;}
+	.outerBox , .whiteOuter { margin-bottom:30px;}
+	.paddingbot40 { padding-bottom:25px;}
+	.seasonList > ul { margin-top:25px;}
+	.seasonList li:last-child { margin-bottom:0px;}
+	.socialOuter span { float:none; display:inline-block; vertical-align:top; padding-top:29px; margin-right:20px;}
+	.topButton .button { margin:0 0 30px; }
+	.winnerBox { padding-bottom:30px; margin-bottom:30px;}
+	.runnerDetail { margin-bottom:20px;}
+	.topText { margin-top:12px;}
+	
+}
+ @media screen and (max-width:640px) {
+	.title {font-size: 30px;line-height: 40px;}
+	.title span {font-size: 24px;line-height: 34px;}
+	.socialIcons {margin: 20px 0 35px;}
+	.logo {margin-bottom: 30px;}
+	a.homelink {font-size: 14px;line-height: 36px;padding: 3px 15px;}
+	.widthBlk {float: left;width: 100%;}
+	.detail {margin-bottom: 33px;}
+	.panel-body {padding: 10px 10px;}
+	.contestantBox {float: left;margin-bottom: 30px;min-height: 207px;width: 100%;}
+	.listButton h3 { padding-top:5px;}
+}
+@media screen and (max-width:580px) {
+	.full {width: 100%;float: left;}
+	.footer-left {text-align: center;}
+	.social-nav {display: inline-block;float: none;}
+	.footer-nav ul li {display: inline-block;float: none;}
+	.footer-nav ul {text-align: center;}
+}
+ @media screen and (max-width:480px) {
+	h2 {font-size: 30px;}
+	h2 {font-size: 25px;}
+	h3 {font-size: 25px;}
+	.formOuter form .form-control {width: 100%;}
+	.formOuter form label {width: 100%;padding-bottom: 10px;}
+	.capcha {margin-left: 0;}
+	form .button {margin-left: 0;}
+	.addressBlk ul li a {font-size: 16px;}
+	.addressBlk ul li {font-size: 16px;}
+	.social li i { font-size:18px; height:40px; width:40px; line-height:40px;}
+	.videoText span {font-size: 14px;}
+	.whiteOuter {padding: 16px 16px;}
+	.whiteDetail {width: 75%;}
+	.highlight {font-size: 15px;}
+	.rightColumn {display: inline-block;}
+	.dateBlk {margin-bottom: 10px;}
+	.contestantThumb > span {bottom: 0;}
+	.fullBlock {float: left;width: 100%;}
+	.borderBox {text-align: center;}
+	.borderBox h2.pink {float: none;}
+	.selectBox {width: 100%;}
+	.pagination > li:last-child > a, .pagination > li:last-child > span {font-size: 16px;}
+	.pagination > li:first-child > a, .pagination > li:first-child > span {font-size: 16px;}
+	.pagination > li > a {font-size: 16px;padding: 7px 12px;}
+	.pagination > li:first-child > a, .pagination > li:first-child > span , .pagination > li:last-child > a, .pagination > li:last-child > span { padding:7px 12px;}
+	.footer-2::before {display: none;}
+	#colorBg::before {display: none;}
+	#colorBg::after {display: none;}
+	.auditionBlk ul li {font-size: 15px;line-height: 27px;}
+	.auditionBlk {background-position: center center;}
+	.redText span {font-size: 40px;}
+	.commentBox textarea.form-control {width: 100%;}
+	.commentBox form label {width: 100%;margin-bottom: 10px;}
+	.commentBox .button {margin-left: 0;margin-top: 10px;}
+	.commentBox form {margin-top: 8px;}
+	.whiteDetail {width: 100%;}
+	.winnerText span {font-size: 15px;}
+	.leftThumb {float: left;width: 100%;text-align: center;}
+	.leftThumb img {display: inline-block;width: 100%;}
+	.rightThumb {float: left;width: 100%;text-align: center;}
+	.rightThumb img {display: inline-block;width: 100%;}
+	.innerBanner h1 { font-size:26px;}
+	.dateBlk .date { width:40px; height:40px; line-height:40px; font-size:22px;}
+	.topButton .button { margin-bottom:15px; margin-top:0px;}
+	.listButton h3 { padding-top:10px;}
+}
+ @media screen and (max-width:420px) {
+	.res-400 {width: 100%;}
+	.formOuter h3 {font-size: 20px;}
+}
+ @media screen and (max-width:360px) {
+	.about h2 {font-size: 38px;line-height: 44px;}
+	.choose-city h2 {font-size: 38px;line-height: 44px;}
+	h2 {font-size: 20px;}
+	h3 {font-size: 18px;}
+	.fileBox input[type="file"] {width: 100%;padding: 20px 0;}
+	.auditionBlk span {font-size: 19px;}
+}
+@media screen and (max-width:320px) {
+}
